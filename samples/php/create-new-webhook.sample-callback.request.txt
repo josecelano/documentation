@@ -1,0 +1,75 @@
+HEADERS
+=======
+Accept-Encoding: gzip
+Host: requestb.in
+Content-Length: 2311
+X-Request-Id: 87b6de89-331f-4d23-a1b9-3411f832898a
+X-Eventtype: new-block-tx
+User-Agent: Go 1.1 package http
+Connection: close
+
+BODY
+====
+
+{
+  "block_hash": "00000000000000001226328406a7c5317bc44d5dd0f7008d9065784f3ac779c0",
+  "block_height": 300584,
+  "hash": "e0d9b2b9bea6b3c6f0c2ea32804f75442b056f858ebddf7b20f9c7d6110d3186",
+  "addresses": [
+    "13LcFedd3Cy2jjoQiqsfXbynq19joEeddy",
+    "17tGhBzVZTLmrczo7Cn793mocKLTePJfLc",
+    "1BitZwvKhRn1rz3GxaSHA4r8RQVuSrU9c2",
+    "1Mu2TnjF7Tyu7pVU4thJTkcwYYrNkyVZKC"
+  ],
+  "total": 1066849,
+  "fees": 20000,
+  "confirmed": "2014-05-13T19:07:13Z",
+  "received": "2014-05-13T19:07:41.514Z",
+  "ver": 1,
+  "lock_time": 0,
+  "vin_sz": 2,
+  "vout_sz": 2,
+  "confirmations": 1,
+  "inputs": [
+    {
+      "prev_hash": "54510aa21f39b167d7949bfd4b5995dc35a54f0e275697a07916213476684a34",
+      "output_index": 1,
+      "script": "48304502210085cfa503647963ec9d1ebcac837fbf0d971d31e8c321de3bfa2e0aed407f6a52022078cdd8cc4e250bbebbdd7b9a1a933d0e01228ae085ea56e3873e9c52320ce2ad01410426ca5b7cb69fcacce8a84c69dcf3c5f5f432a3409229db444bf3c555e235ea6a788b673210734ff8f541af03231a090c5344ad090489e31a7b7c3e11b8dced61",
+      "output_value": 1000000,
+      "addresses": [
+        "1Mu2TnjF7Tyu7pVU4thJTkcwYYrNkyVZKC"
+      ],
+      "script_type": "pay-to-pubkey-hash"
+    },
+    {
+      "prev_hash": "5e584f6ec7bfc32a37dccc1c19b32e4e93994c924c68b4a1bfc3518d189aaeb9",
+      "output_index": 1,
+      "script": "483045022100a88cb7c7a51b0c9180d3087db216610faf540dda24a256f6663939dc134f3fde02205dda47e9b3c809303c8ff8fce107f742d19ff8bcda64e2e380c048dbf85a43cd014104e5529608728e4eafb3c9e05c7fa1f899a14f17e3b66c265a056c684b53d5a3672452c3571d1483a09ae27a3814ac7c73b4be73255233dbdb9ee9049fc4166a43",
+      "output_value": 86849,
+      "addresses": [
+        "13LcFedd3Cy2jjoQiqsfXbynq19joEeddy"
+      ],
+      "script_type": "pay-to-pubkey-hash"
+    }
+  ],
+  "outputs": [
+    {
+      "value": 1000000,
+      "script": "76a914759d5beeb6df9afa8a28af7b47b97d29ba14662b88ac",
+      "spent_by": "01c9e032fa8063dc4a8ee6438c5ece3f77ae797046b629b16bee6d6c47a066c5",
+      "addresses": [
+        "1BitZwvKhRn1rz3GxaSHA4r8RQVuSrU9c2"
+      ],
+      "script_type": "pay-to-pubkey-hash"
+    },
+    {
+      "value": 66849,
+      "script": "76a9144b83118c398aae8cbd48b2b58c5952fab0fafc9b88ac",
+      "spent_by": "",
+      "addresses": [
+        "17tGhBzVZTLmrczo7Cn793mocKLTePJfLc"
+      ],
+      "script_type": "pay-to-pubkey-hash"
+    }
+  ]
+}
